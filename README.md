@@ -31,8 +31,16 @@ Use DISM++ to convert the Windows 10/11 ISO folder into an actual ISO file. You 
 
 Ensure that the file you have now is a .iso file and that the files are not nested within an additional folder.
 
-### Step 5:
+### Step 5: Use rufus to burn the ISO to the USB.
+Ensure that the settings are for UEFI and GPT, as newer hardware usually requires these to even boot without changing BIOS settings. They are also more up-to-date and will provide a smoother experience.
+
+## Step 6: Put required drivers in a bew folder on your USB drive.
+Make sure they work on Windows 7. Remember that even though we are using a Windows 10/11 setup, we are installing Windows 7 which will not be compatible with many new drivers. At some point I might make a list of the most up-to-date drivers I can find for modern hardware.
+
+## Good Precautions
+I __strongly__ recommend backing up your data. **You will not be able to install this over a current Windows install. It's not possible.** I also strongly recommend unplugging hard drives other than the one you're installing to. Windows has a reputation of messing with drives you didn't select, and it has happened to me multiple times before (even if i tripe check which drive i format).
 
 ## Stage 2 of setup
 
-### Step 
+### Step 7: Plug the USB into your computer and boot to it.
+Most computers have a boot menu that you can access by pressing F12, but check for your system to make sure you're pressing the right key.
