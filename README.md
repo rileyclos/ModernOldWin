@@ -51,9 +51,9 @@ Most computers have a boot menu that you can access by pressing F12, but check f
 
 ### Step 8: Install Windows as normal
 This part should feel just like installing Windows 10. If you are using the ISO I provided earlier, there will be 6 options. They will be along the lines of 2016-something and 2020-something. The 2020 versions are recommended, but if you care a lot about telemetry etc. use the 2016 versions. They have all the same basic drivers, just the 2020 one has additional "feature" updates from Microsoft. For most cases, use Windows 7 Ultimate. The only benefit the other versions really give is that they take up less space.
-> Features: Ultimate
-> Middle Child: Professional
-> Lightweight: Home Premium
+> Features: Ultimate,
+> Middle Child: Professional,
+> Lightweight: Home Premium.
 
 ## Stage 3 of setup
 
