@@ -17,7 +17,7 @@ ModernOldWin is a guide to setting up old versions of windows (eg. Windows 7) on
 - Recommended: Rufus portable, compatible with Windows 7 [Download Link](https://github.com/pbatard/rufus/releases/download/v3.22/rufus-3.22p.exe)
 - Recommended: a lightweight linux ISO (eg. ArchBang [Download Link](https://sourceforge.net/projects/archbang/?source=typ_redirect))
 
-## Stage 1 of setup
+## Stage 1 of setup, "Heavy Lifting"
 
 ### Step 1: Use 7-zip to extract both ISOs.
 I recommend creating a folder for the extracted ISOs. Make sure there are no spaces in the path to either of the files (including the name of the ISOs). You must also be able to tell which folder is for which ISO, so name them clearly.
@@ -44,7 +44,7 @@ Make sure they work on Windows 7. Remember that even though we are using a Windo
 ## Good Precautions
 I __strongly__ recommend backing up your data. **You will not be able to install this over a current Windows install. It's not possible.** I also strongly recommend unplugging hard drives other than the one you're installing to. Windows has a reputation of messing with drives you didn't select, and it has happened to me multiple times before (even if I tripe check which drive I format).
 
-## Stage 2 of setup
+## Stage 2 of setup, "Moment of Truth"
 
 ### Step 7: Plug the USB into your computer and boot to it.
 Most computers have a boot menu that you can access by pressing F12, but check for your system to make sure you're pressing the right key. After this, there should be a menu of boot options. The one you want to click will usually be the brand of your USB, followed by UEFI and a partition number. You want to use the first partition you see, so if there is Partition 1, 2, and 3 use partition 1. If you see Partition 0 and 1 then use Partition 0. If you are unsure, just try options until you see a setup screen. No harm should be done to your computer if you choose the wrong one.
@@ -55,7 +55,7 @@ This part should feel just like installing Windows 10. If you are using the ISO 
 > Middle Child: Professional,
 > Lightweight: Home Premium.
 
-## Stage 3 of setup
+## Stage 3 of setup, "Home Stretch"
 
 ### Step 9: Install Drivers
 This is the tricky part. The issue is, if your network drivers are not compatible with Windows 7, you will have to get them from another computer or a live linux install on your USB. If you didn't get the right drivers, this is the part where the linux ISO and Rufus is useful (ESPECIALLY if you don't have a second computer). Either use your other computer or your linux ISO to get working drivers onto your computer. If there are no drivers that work, you are almost out of luck. The last thing you can try is to take the .inf files from the driver installers and install those manually. At that point, I can't help you because I personally did not have to do that.
